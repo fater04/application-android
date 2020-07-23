@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Nom de l\'application</string>
+    <string name="logo_app">Logo</string>
+    <string name="bienvenue">Bienvenue</string>
+    <string name="text_accueil">Cette application vise à renforce, d\'une part, les capacités
+        de gestion du processus d\'évacuation de masse et, de l\'autre, les capacités de
+        gestion des abris d\'évacuation en cas de catastrophe naturelle dans le contexte
+        de la Covid-19.
+    </string>
+</resources>
