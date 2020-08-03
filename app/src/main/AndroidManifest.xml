@@ -9,8 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ParagrapheActivity" />
-        <activity android:name=".ChapitreActivity" />
+        <activity android:name=".activity.QuizActivity"></activity>
+        <activity android:name=".activity.ContenueActivity" />
+        <activity android:name=".activity.ParagrapheActivity" />
+        <activity android:name=".activity.ChapitreActivity" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar">

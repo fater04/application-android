@@ -1,4 +1,4 @@
-package com.example.myapp;
+package com.example.myapp.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DefaultItemAnimator;
@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.myapp.Models.Chapitre;
+import com.example.myapp.R;
 import com.example.myapp.adapters.ChapitreAdapter;
 
 import java.util.ArrayList;
