@@ -1,13 +1,8 @@
-package com.example.myapp;
+package com.example.myapp.Models;
 
-public class Chapitre {
-
+public class Paragraphe {
     private int id;
-    private String titre, contenue;
-
-    public Chapitre() {
-
-    }
+    private String titre,contenue;
 
     public int getId() {
         return id;
@@ -33,13 +28,16 @@ public class Chapitre {
         this.contenue = contenue;
     }
 
-    public Chapitre(int id, String titre, String contenue) {
+    public Paragraphe(String titre) {
+        this.titre = titre;
+    }
+
+    public Paragraphe() {
+    }
+
+    public Paragraphe(int id, String titre, String contenue) {
         this.id = id;
         this.titre = titre;
         this.contenue = contenue;
-    }
-
-    public Chapitre(String titre) {
-        this.titre = titre;
     }
 }

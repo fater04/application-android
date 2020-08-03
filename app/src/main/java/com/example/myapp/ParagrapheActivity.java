@@ -9,41 +9,44 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.myapp.Models.Chapitre;
+import com.example.myapp.Models.Paragraphe;
 import com.example.myapp.adapters.ChapitreAdapter;
+import com.example.myapp.adapters.ParagrapheAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ChapitreActivity extends AppCompatActivity {
-    private List<Chapitre> chapitreList = new ArrayList<>();
+public class ParagrapheActivity extends AppCompatActivity {
+    private List<Paragraphe> ParagrapheList = new ArrayList<Paragraphe>();
     private RecyclerView recyclerView;
-    private ChapitreAdapter mAdapter;
+    private ParagrapheAdapter mAdapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chapitre);
-        recyclerView = (RecyclerView) findViewById(R.id.recycle_view_chapitres);
+        setContentView(R.layout.activity_paragraphe);
+        recyclerView = (RecyclerView) findViewById(R.id.recycle_view_paragraphes);
 
-        mAdapter = new ChapitreAdapter(chapitreList);
+        mAdapter = new ParagrapheAdapter(ParagrapheList);
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
         recyclerView.setLayoutManager(mLayoutManager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.setAdapter(mAdapter);
-        prepareChapitreData();
+        prepareParagrapheData();
         mAdapter.setClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 int pos = recyclerView.indexOfChild(v);
-                Intent intent = new Intent(getApplicationContext(), ParagrapheActivity.class);
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(intent);
             }
         });
     }
-    private void prepareChapitreData() {
-        for (int i=0;i<6;i++) {
-            Chapitre c = new Chapitre("Planification");
-            chapitreList.add(c);
+
+    private void prepareParagrapheData() {
+        int i;
+        for ( i=0;i<6;i++) {
+            Paragraphe p1 = new Paragraphe("Paragraphe : "+i);
+            ParagrapheList.add(p1);
         }
 
 
