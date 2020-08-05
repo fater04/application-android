@@ -28,22 +28,21 @@ public class QuizActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
         recyclerView = (RecyclerView) findViewById(R.id.recycle_view_quiz);
-
         mAdapter = new QuizAdapter(QuizList);
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
         recyclerView.setLayoutManager(mLayoutManager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.setAdapter(mAdapter);
         prepareQuizData();
-
     }
+
+
     private void prepareQuizData() {
         int i;
-        for ( i=0;i<6;i++) {
-           Quiz q1 = new Quiz("Question du jour ?"+i,"reponse 1","reponse 2","reponse 3","reponse 4");
+        for ( i=1;i<11;i++) {
+           Quiz q1 = new Quiz(i+")- Question du jour ?","reponse 1","reponse 2","reponse 3","reponse 4");
             QuizList.add(q1);
         }
-
 
         mAdapter.notifyDataSetChanged();
     }

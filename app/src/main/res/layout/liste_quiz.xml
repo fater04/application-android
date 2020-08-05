@@ -16,11 +16,52 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:textSize="22dp"
+        android:textSize="20dp"
         android:gravity="center"
-        android:textStyle="bold" />
+        android:text="Quel temps fait-il Aujourdh'hui ?" />
+
+    <RelativeLayout
+        android:layout_below="@id/question_quiz"
+        android:id="@+id/relativeLayout1"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
 
 
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+            <RadioButton
+                android:id="@+id/radioReponse1"
+                android:layout_alignParentLeft="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RadioButton" />
+
+            <RadioButton
+                android:id="@+id/radioReponse2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RadioButton" />
+
+            <RadioButton
+                android:id="@+id/radioReponse3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RadioButton" />
+
+            <RadioButton
+                android:id="@+id/radioReponse4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RadioButton" />
+        </RadioGroup>
+
+    </RelativeLayout>
 
 
 </RelativeLayout>

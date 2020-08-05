@@ -17,7 +17,7 @@
         android:textStyle="bold"
         android:fontFamily="@font/archivo_black"
         android:text="Quiz"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="5dp"
         android:layout_marginTop="10dp"/>
 
     <ScrollView
@@ -43,9 +43,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textColor="@color/blanc"
                 android:padding="10dp"
-                android:layout_marginBottom="5dp"
+                android:layout_marginBottom="2dp"
                 android:text="Resultat" />
 
         </LinearLayout>

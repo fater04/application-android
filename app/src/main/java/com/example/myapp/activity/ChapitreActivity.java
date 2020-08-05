@@ -43,7 +43,7 @@ public class ChapitreActivity extends AppCompatActivity {
     }
     private void prepareChapitreData() {
         for (int i=0;i<6;i++) {
-            Chapitre c = new Chapitre("Planification");
+            Chapitre c = new Chapitre("Chapitre "+i);
             chapitreList.add(c);
         }
 
