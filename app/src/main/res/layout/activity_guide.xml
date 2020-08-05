@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanc"
+    tools:context=".activity.GuideActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/cambay_italic"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingTop="15dp"
+        android:paddingRight="5dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et tortor at risus viverra adipiscing. In mollis nunc sed id. Quis varius quam quisque id diam. Nunc consequat interdum varius sit amet. Lorem sed risus ultricies tristique nulla. Orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Elit eget gravida cum sociis natoque penatibus et. Eget duis at tellus at urna condimentum. Id diam maecenas ultricies mi eget. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget.
+
+Suscipit adipiscing bibendum est ultricies integer quis auctor elit. Venenatis lectus magna fringilla urna porttitor rhoncus. A scelerisque purus semper eget duis at tellus. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Fermentum iaculis eu non diam phasellus vestibulum lorem sed. Quam lacus suspendisse faucibus interdum. Gravida rutrum quisque non tellus. Mollis nunc sed id semper risus in hendrerit gravida rutrum. Magna sit amet purus gravida quis blandit turpis cursus in. Tempus urna et pharetra pharetra massa massa ultricies. Viverra mauris in aliquam sem fringilla ut morbi tincidunt. Accumsan sit amet nulla facilisi morbi tempus iaculis urna id. Est velit egestas dui id ornare arcu odio ut. Purus in massa tempor nec feugiat nisl pretium. Arcu felis bibendum ut tristique et. Donec enim diam vulputate ut pharetra sit amet aliquam. At tempor commodo ullamcorper a lacus."
+        android:textColor="@color/gris"
+        android:textSize="16sp" />
+
+</ScrollView>
+

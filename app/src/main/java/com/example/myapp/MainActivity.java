@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.myapp.activity.ChapitreActivity;
+import com.example.myapp.activity.GuideActivity;
 
 public class MainActivity extends AppCompatActivity {
   Button btnFormation,btnGuideComplete;
@@ -23,6 +24,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), ChapitreActivity.class);
+                startActivity(intent);
+            }
+        });
+        btnGuideComplete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), GuideActivity.class);
                 startActivity(intent);
             }
         });
