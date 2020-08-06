@@ -18,7 +18,10 @@
         android:layout_alignParentTop="true"
         android:textSize="22dp"
         android:gravity="center"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textColor="@color/blanc"
+        android:text="Paragraphe"
+        android:background="@color/gris"/>
 
 
 

@@ -40,9 +40,14 @@ public class ChapitreActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        //action bar icone
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setLogo(R.mipmap.ic_launcher_logo_officiel);
+        getSupportActionBar().setDisplayUseLogoEnabled(true);
     }
     private void prepareChapitreData() {
-        for (int i=0;i<6;i++) {
+        for (int i=1;i<=6;i++) {
             Chapitre c = new Chapitre("Chapitre "+i);
             chapitreList.add(c);
         }

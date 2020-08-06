@@ -6,4 +6,8 @@
     <color name="blanc">#FFF</color>
     <color name="noir">#000</color>
     <color name="gris">#7F7F7F</color>
+    <color name="jaune">#fb8216</color>
+    <color name="jaunedark">#ba5b06</color>
+    <color name="jaunepale">#ffc796</color>
+
 </resources>

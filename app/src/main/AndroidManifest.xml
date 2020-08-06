@@ -3,13 +3,14 @@
     package="com.example.myapp">
 
     <application
+        android:logo="@drawable/logo"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher_logo_officiel"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher_logo_officiel"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.GuideActivity"></activity>
+        <activity android:name=".activity.GuideActivity" />
         <activity android:name=".activity.QuizActivity" />
         <activity android:name=".activity.ContenueActivity" />
         <activity android:name=".activity.ParagrapheActivity" />
